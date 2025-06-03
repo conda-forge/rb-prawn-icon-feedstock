@@ -1,5 +1,5 @@
 {% set name = "prawn-icon" %}
-{% set version = "3.0.0" %}
+{% set version = "4.1.0" %}
 
 package:
   name: rb-{{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   - url: https://rubygems.org/downloads/{{ name }}-{{ version }}.gem
-    sha256: dac8d481dee0f60a769c0cab0fd1baec7351b4806bf9ba959cd6c65f6694b6f5
+    sha256: a56522a7aa15eb8b9d4be1e3d879536cba4d8a0a8b1ee7e622976023f4bfe3b5
 
 build:
   noarch: generic
